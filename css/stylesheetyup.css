@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Poiret+One&family=Radley:ital@0;1&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Poiret+One&family=Quicksand:wght@300..700&family=Radley:ital@0;1&display=swap);
+
+h1 {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 150px;
+}
+/* background-color: rgb(69, 131, 131); */
+Header {
+    Padding: 40px;
+    background-image:url(../images/Wave4.png);
+    background-size: cover;
+
+}
+
+Body {
+    background-color: rgb(195, 206, 202);
+}
+
+#MORE img{
+    margin-top: 10px;
+}
+#MORE{
+    background-color:rgb(94, 122, 116);
+}
+#MORE p{
+    color:rgb(5, 31, 25);
+}
+
+
+
+
+
+/* ABOUT ME */
+
+p {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    margin:auto 60px;
+    color: rgb(26, 65, 56);
+    Padding-top:30px;
+    Padding-bottom:30px;
+}
+
+footer{
+    background-color:rgb(26, 65, 56);
+    padding: 45px;
+    text-align: center;
+}
+footer p{
+    
+    color:rgb(185, 204, 197);
+}
+
+h2 {
+    text-align: center;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 60px;
+    background-color: rgb(15, 63, 63);
+    color:white;
+    
+}
+
+#KNOWME a{
+    color:rgb(16, 112, 91);
+}
+
+#HELLOEVERYBODY{
+    background-color: rgb(85, 121, 113);
+}
+
+
+/* NAVIGATION DONT WORRY THAT ITS BELOW THE ABOUT ME (previous--> 17, 58, 49*/
+nav ul {
+    padding: 20px;
+    display: block;
+    list-style-type: none;
+    background-color: rgb(15, 63, 63);
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    margin: 0;
+}
+
+section{
+    margin: auto;
+    width: 70vw;
+    background-color:rgb(219, 216, 214);
+
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 30px;
+ 
+}
+
+a:hover{
+    color: rgb(185, 204, 197);
+    text-decoration: none;
+}
+
+#carousel {
+    background-color: rgb(219, 216, 214);
+}
+
+.carousel-control-prev {
+    margin-left: -130px;
+    
+}
+.carousel-control-next {
+    margin-right: -130px;
+}
+
+h3{
+    text-align:center;
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-size: 50px;
+    Color:rgb(49, 0, 15);
+
+}
+
+
+
