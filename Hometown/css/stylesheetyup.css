@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Poiret+One&family=Quicksand:wght@300..700&family=Radley:ital@0;1&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poiret+One&family=Quicksand:wght@300..700&family=Radley:ital@0;1&display=swap);
+
+h1{
+    text-align:center;
+    color:white;
+    font-family: "Cormorant Unicase", serif;
+    font-size: 110px;
+    font-weight: 200;
+    padding-top: 10px;
+    margin-bottom: -15px;
+}
+
+header{
+    padding-top: 40px;
+    background-image:url(../images/Piltover.png);
+    background-size: cover;
+}
+
+/* NAVIGATION */
+
+nav ul {
+    padding: 20px;
+    display: block;
+    list-style-type: none;
+    background-color: rgb(136, 112, 77);
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    margin: 0;
+    
+    
+}
+nav{
+    background-color: rgb(136, 112, 77);
+    color: white;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 3px;
+    font-size: 18px;
+    font-family: "Cormorant Unicase", serif;
+    text-align: center;
+    
+}
+
+
+
+
+a:hover{
+    color: rgb(255, 225, 159);
+    text-decoration: none;
+}
+
+body{
+    background-color:rgb(230, 219, 198);
+    
+}
+
+p {
+    text-align: center;
+    font-size: 17px;
+    font-family: "Inria Serif", serif;
+}
+
+h3{
+    font-family: "Cormorant Unicase", serif;
+    padding-bottom: 20px;
+    color:rgb(105, 86, 57);
+    
+}
+
+footer{
+    background-image:url(../images/undercity.png);
+    background-size: cover;
+    margin: 0;
+    padding: 130px;
+}
+
+a :visited{
+    color:white;
+}
+a{
+    color:white;
+}
+
+h2{
+    font-family: "Cormorant Unicase", serif;
+    color:rgb(105, 86, 57);
+}
+h4{
+    font-family: "Cormorant Unicase", serif;
+    color:rgb(105, 86, 57);
+}
+
+
+#references a :visited{
+    color:rgb(0, 0, 0);
+}
+#references a{
+    color:rgb(0, 0, 0);
+    font-family: "Cormorant Unicase", serif;
+}
+
+#references a:hover{
+    color: rgb(105, 86, 57);
+    text-decoration: none;
+}
