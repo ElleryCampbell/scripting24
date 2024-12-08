@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlibs</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/stylesheetmhm.css">
+
+</head>
+
+
+
+<body>
+    <header>
+
+        <div class="container">
+            <div class="row text-center pt-5 pb-5">
+                <div class="col-sm-12 text-white">
+                    <img src="images/FreeCityCrestWhite.png" alt="FreeCity Crest">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <nav>
+        <h3> FINNIK'S FIRST UNDERCITY MISSION </h3>
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12 pt-2 text-center">
+                <img src="images/divider.png" class="img-fluid" alt="divider">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <p>Captain Kane Carrion always kept a watchful eye on his daughter Finnik. Her being a part of the peace
+                    force he commanded was nerve wracking, but that was par for the course when raising someone like
+                    her.
+                    Following a botched store robbery and a stab wound, Kane had enough ground to redirect her. He
+                    entrusted her to the command of Lieutenant Jaxton, lead of undercity affairs.
+                    The undercity was more treacherous than the pearly crimes of topside, but he knew she would be safe
+                    under her uncle's guidance.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <img src="images/divider.png" class="img-fluid" alt="divider">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="row pt-2">
+            <div class="col-sm-7 mx-auto">
+                <form action="javascript:write();">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input class="form-control" type="text" id="name">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="noun">Noun:</label>
+                        <input class="form-control" type="text" id="noun">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="colour">Colour:</label>
+                        <input class="form-control" type="text" id="colour">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="adjective">Adjective:</label>
+                        <input class="form-control" type="text" id="adjective">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="accessory">Accessory:</label>
+                        <input class="form-control" type="text" id="acc">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Number:</label>
+                        <input class="form-control" type="text" id="number">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="animal">Animal plural:</label>
+                        <input class="form-control" type="text" id="animal">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="weapon">Weapon:</label>
+                        <input class="form-control" type="text" id="weapon">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="creature">Mythical creature:</label>
+                        <input class="form-control" type="text" id="creature">
+
+                    </div>
+                    <div class="form-group pb-4">
+                        <label for="verb">Verb:</label>
+                        <input class="form-control" type="text" id="verb">
+
+                    </div>
+                    <!-- Radio -->
+                    <div class="form-group">
+                        <h5>Who do you think has the information?</h5>
+
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-control-imput" name="stranger" value="npc1" id="npc1">
+                                Shelly the elderly firbolg knitting on a sunken porch.
+                            </label>
+                        </div>
+
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-control-imput" name="stranger" value="npc2" id="npc2">
+                                Jovanis the toad man selling suspricous books.
+                            </label>
+                        </div>
+
+                        <div class="form-check pb-4">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-control-imput" name="stranger" value="npc3" id="npc3">
+                                Frederica the black-feathered harpy leaning against the walls.
+                            </label>
+                        </div>
+
+
+
+                        <button type="sumbit" class="btn btn-block btn-outline-success">Start Mission</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <img src="images/divider.png" class="img-fluid" alt="divider">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="output" class="col-sm-12 mx-auto pt-0 pb-4 text-center ">
+                <h2>Mission Report here!</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 pb-2 text-center">
+                <img src="images/divider.png" class="img-fluid" alt="divider">
+            </div>
+        </div>
+    </div>
+
+    <!-- yup yup -->
+
+
+    <footer>
+        <div class="container">
+            <div class="row pt-3 pb-3">
+                <div class="col-sm-12 pt-5 pb-5">
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="js/hellohello.js"></script>
+</body>
+
+</html>

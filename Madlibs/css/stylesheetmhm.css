@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Poiret+One&family=Quicksand:wght@300..700&family=Radley:ital@0;1&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Cormorant+Unicase:wght@300;400;500;600;700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poiret+One&family=Quicksand:wght@300..700&family=Radley:ital@0;1&display=swap);
+
+nav{
+    text-align:center;
+    background-color:rgb(46, 31, 25);
+    padding: 20px;
+    color:rgb(255, 255, 255);
+}
+
+body{
+background-color:rgb(216, 209, 201);
+
+}
+
+header{
+    /* background-color:rgb(167, 151, 127); */
+    background-image:url(../images/Greenglass.png);
+}
+
+h3{
+    font-family: "Cormorant Unicase", serif;
+    font-size: 50px
+}
+
+footer{
+    background-color:rgb(46, 31, 25);
+}
+
+p {
+    font-family: "Inria Serif", serif;
+}
+
+label {
+    font-family: "Inria Serif", serif;
+    text-align:center;
+}
